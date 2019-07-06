@@ -3,7 +3,13 @@ name = "feq"
 version = "0.1.0"
 authors = ["Ioannis Giagkiozis"]
 edition = "2018"
+description = "A message queue library"
+homepage = "https://github.com/igiagkiozis/feq"
+repository = "https://github.com/igiagkiozis/feq"
+license = "MIT"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+exclude = [
+    "target/*"
+]
 
 [dependencies]
